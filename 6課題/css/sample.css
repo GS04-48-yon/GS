@@ -1,0 +1,210 @@
+body{
+    margin:0;
+    padding:0;
+    text-align:left;
+    font-size: 32px;
+}
+header{
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+main{
+    border-bottom:1px solid #ccc;
+}
+footer{
+    background-color: #fff;
+    border-bottom:1px solid #ccc;
+    text-align: center;
+}
+p{
+    font-size:200%;
+    text-align: center;
+    border-bottom:1px solid #fff;
+    height:200px;
+}
+ul{
+    padding: 0;
+    border-top: 1px solid #000000;
+    display:table;  /* 定義 */
+    table-layout: fixed;
+    width:100%;
+}
+li{
+    list-style-type:none;
+    border: 1px solid #666;
+    background-color: #FFF;
+    display:table-cell;  /* 定義 */
+    cursor: pointer;
+}
+li:hover{
+    background: #0066CC;
+    color:#fff;
+}
+#gu_btn:hover {
+    background-color:coral;
+}
+
+#cho_btn:hover {
+    background-color:coral;
+}
+
+#par_btn:hover {
+    background-color:coral;
+}
+
+
+
+.curledtxt {
+     vertical-align:-120%;
+}
+
+#curled-box {
+    
+    text-align: center;
+    margin:  auto;
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    background-color:deepskyblue;
+    
+}
+
+
+.curled-box1 {
+    
+    text-align: center;
+    margin: 25px  auto;
+    border-radius: 10%;
+    height: 120px;
+    width: 120px;
+    background-color:deepskyblue;
+
+}
+
+.curled-box:hover {
+    background-color:yellow;
+    color: red;
+}
+
+
+    
+.button {
+	background-color:deepskyblue;
+	border: 2px solid deepskyblue;
+	color: white;
+	line-height: 50px;
+}
+.button:hover {
+	background-color: white;
+	border-color: firebrick;
+	color:firebrick;
+}
+
+.slotstart {
+    margin-left:40px;
+    margin-top:20px;
+}
+
+.divB {
+    border: 1px solid gray;
+    height:230px;
+    width:250px;
+    margin: 20px 10px;
+    float:right;
+}
+
+.divBtn1 {
+    width: 33%;
+    float:left;
+ 
+}
+
+
+
+
+.divK {
+    height:20px;
+    float:none;
+}
+
+.divS {
+    border: 1px solid gray;
+    height:230px;
+    max-width:600px;
+    margin: 20px 10px;
+    float:left;
+}
+
+.divBtns {
+    height:170px;
+    margin: 10px 10px;
+}
+
+H3 {
+    font-size: 117%;
+}
+
+#Slot_btn {
+     vertical-align:-120%;
+}
+
+.mainframe {
+    max-width: 960px;
+    min-width: 320px;
+     margin: 20px auto;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 920px){
+.mainframe {
+    max-width: 600px;
+     margin: 0px auto;
+}
+.divB {
+    border: 1px solid gray;
+    margin: auto;
+    clear:both;
+    float:none;
+}
+    
+
+    
+.divBtns {
+    height:140px;
+    max-width:600px;
+    margin: 20px 0px;
+}
+    
+    
+.curled-box1 {
+    
+    text-align: center;
+    margin: 25px  auto;
+    border-radius: 10%;
+    height: 90px;
+    width: 90px;
+    background-color:deepskyblue;
+
+}
+
+.divBtn1 {
+    width: 33%;
+    float:left;
+ 
+}
+    
+.curledtxt {
+     vertical-align:-100%;
+     font-size:80%;
+}
+    
+}
+

@@ -1,0 +1,108 @@
+
+
+.curledtxt {
+     vertical-align:-120%;
+}
+
+#curled-box {
+    
+    text-align: center;
+    margin:  auto;
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    background-color:deepskyblue;
+    
+}
+
+
+.curled-box1 {
+    
+    text-align: center;
+    margin: 25px  auto;
+    border-radius: 10%;
+    height: 120px;
+    width: 120px;
+    background-color:deepskyblue;
+
+}
+
+.curled-box:hover {
+    background-color:yellow;
+    color: red;
+}
+
+
+    
+.button {
+	background-color:deepskyblue;
+	border: 2px solid deepskyblue;
+	color: white;
+	line-height: 50px;
+}
+.button:hover {
+	background-color: white;
+	border-color: firebrick;
+	color:firebrick;
+}
+
+.slotstart {
+    margin-left:40px;
+    margin-top:20px;
+}
+
+.divB {
+    border: 1px solid gray;
+    height:230px;
+    width:250px;
+    margin: 20px 10px;
+    float:right;
+}
+
+.divBtn1 {
+    width: 33%;
+    float:left;
+ 
+}
+
+
+
+
+.divK {
+    height:20px;
+    float:none;
+}
+
+.divS {
+    border: 1px solid gray;
+    height:230px;
+    max-width:600px;
+    margin: 20px 10px;
+    float:left;
+}
+
+.divBtns {
+    height:170px;
+    margin: 10px 10px;
+}
+
+H3 {
+    font-size: 117%;
+}
+
+#Slot_btn {
+     vertical-align:-120%;
+}
+
+.mainframe {
+    max-width: 960px;
+    min-width: 320px;
+     margin: 20px auto;
+}
+
+
+
+
+
+
+
